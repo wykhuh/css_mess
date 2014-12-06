@@ -1,0 +1,18 @@
+{
+  "name": "CSS Mess",
+  "description": "Mess up any page with CSS.",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "CSS Mess",
+    "default_popup": "popup.html"
+  },
+
+  "manifest_version": 2
+}

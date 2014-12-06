@@ -1,0 +1,60 @@
+div:nth-child(4n+1){
+  -webkit-animation: 3s move_diva infinite ;
+}
+
+@-webkit-keyframes move_diva  {
+  0%, 20% {
+    width: 100%;
+    height: 100%;
+  }
+  50% {
+    width: 30%;
+    height: 30%;
+  }
+  80% {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+ p:nth-child(2n+1) {
+
+  -webkit-animation: 2s move_texta  infinite ;
+}
+
+@-webkit-keyframes move_texta {
+  0%, 20% {
+    -webkit-transform:rotate(0deg);
+  }
+  50% {
+    -webkit-transform:rotate(360deg);
+  }
+  80% {
+    -webkit-transform:rotate(0deg);
+  }
+}
+
+div:nth-child(2n+2), p:nth-child(2n+2) {
+  -webkit-animation: 6s move_textb  infinite;
+}
+
+
+@-webkit-keyframes move_textb {
+  0%, 20%{
+    -webkit-transform:translate(0px, 0px);
+  }
+  40% {
+    -webkit-transform:translate(0, -300%);
+  }
+
+  60% {
+    -webkit-transform:translate(0, 300%);
+  }
+
+  80% {
+    -webkit-transform:translate(0px, 0px);
+
+  }  
+
+}
